@@ -1,0 +1,41 @@
+{
+    "interval": 11000,
+    "serverPort": 1337,
+    "autoRetryOnCrash": true,
+    "noImageURL": "http://i.imgur.com/MdsG0Po.png",
+    "notify": {
+        "new": true,
+        "restocks": true,
+        "keywords": false
+    },
+    "slackBot": {
+        "active": true,
+        "token": "xoxb-143538146836-BUWezPeRanZphgWiTvDqbBrI",
+        "channel": "monitor-shopify",
+        "settings": {
+            "username": "zhibolau",
+            "icon_url": "http://i.imgur.com/zks3PoZ.png"
+        }
+    },
+    "twitter": {
+        "active": true,
+        "encodeImages": false,
+        "consumer_key": "W3zIQHUqD7kcl3skGf5nqsB7o",
+        "consumer_secret": "OCdZ3DM9YgiBuRn1WyFqUjeECzjTL0sd1mHPBBOk5Fk2l9cCEo",
+        "access_token": "764871355359567876-yr7ZKWVavlrmt1DgSkhZsdN8KOJHYvS",
+        "access_token_secret": "VyOopFvaQeOzyrBawiJowntDCfd2xGRaNk69Pf9pYA7pw"
+    },
+    "sites": [
+      "https://us.octobersveryown.com/sitemap_products_1.xml",
+      "https://shopnicekicks.com/sitemap_products_1.xml",
+      "https://shop.exclucitylife.com/sitemap_products_1.xml",
+      "https://www.solefly.com/sitemap_products_1.xml",
+      "https://www.trophyroomstore.com/sitemap_products_1.xml",
+      "http://kithnyc.com/sitemap_products_1.xml"
+    ],
+    "keywords": [
+        "nmd",
+        "ultraboost",
+        "yeezy"
+    ]
+}
